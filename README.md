@@ -1,1 +1,1 @@
-# dingo-game
+# Recriando o jogo do Dinossauro
