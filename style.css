@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100&family=Press+Start+2P&display=swap');
+body{
+    background: #fafafa;
+    font-family: 'Press Start 2P', cursive;
+    overflow: hidden;
+   
+}
+
+.dino{
+    width: 60px;
+    height: 60px;
+    background-image: url(src/dino.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(src/cactus.png);
+}
+.game-over{
+    text-align: center;
+
+    margin-top: 200px;
+    color:#817f7f;
+}
+@keyframes sliderright{
+    from{
+        background-position: 70000%;
+    }
+    to{
+        background-position: 0;
+    }
+}
+.background{
+    position: absolute;
+    bottom: 0;
+    background-image: url(src/background.png);
+    background-repeat: repeat-x;
+    animation: sliderright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+}
+.score-container{
+    display: flex;
+    align-items: flex-end;
+    position:absolute;
+    right: 12px;
+    top: 30px;
+}
+.score{
+    font-size: 1.1em;
+    width: 100px;
+    height: 100px;
+    color:#817f7f;
+    
+}
+.score-value{
+    font-size: 1.1em;
+    width: 100px;
+    height: 100px;
+    color:#817f7f;
+    
+}
